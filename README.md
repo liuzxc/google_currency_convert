@@ -1,6 +1,12 @@
 # google currency convert
 currency convert by google finance API
 
+###Install
+
+```
+gem install google_currency_convert
+```
+
 ###get currency code and country info
 
 ```
@@ -21,6 +27,8 @@ GoogleCurrencyConvert.currency_codes
 ###currency convert
 
 ```
+GoogleCurrencyConvert.currency_convert(from_currency, to_currency, amount)
+
 GoogleCurrencyConvert.currency_convert("AED", "AFN", 1)
 => 16.4682
 ```
