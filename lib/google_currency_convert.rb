@@ -1,7 +1,7 @@
 require 'net/http'
 require 'nokogiri'
 
-class Currency
+class GoogleCurrencyConvert
 
 	def self.currency_info
 		unless @info
