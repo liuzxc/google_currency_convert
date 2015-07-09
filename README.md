@@ -32,9 +32,16 @@ GoogleCurrencyConvert.currency_codes
 
 ###currency convert
 
-```
-GoogleCurrencyConvert.currency_convert(from_currency, to_currency, amount)
+The amount parmater has the default value, so if don't pass the amount, you will get the
+currency rate.
 
-GoogleCurrencyConvert.currency_convert("AED", "AFN", 1)
-=> 16.4682
+```
+GoogleCurrencyConvert.currency_convert(from_currency, to_currency, amount = 1)
+```
+
+Convert US Dollar to Chinese Yuan, for example:
+
+```
+GoogleCurrencyConvert.currency_convert("USD", "CNY")
+=> 6.2092
 ```

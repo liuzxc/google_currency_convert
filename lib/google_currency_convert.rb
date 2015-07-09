@@ -17,7 +17,7 @@ class GoogleCurrencyConvert
 		@info.map { |i| i.split(' ')[0] }
 	end
 
-	def self.currency_convert(from, to, amount)
+	def self.currency_convert(from, to, amount = 1)
 		if not currency_codes.include?(from) or not currency_codes.include?(to)
 			return "Error: cannot support such currency code"
 		end

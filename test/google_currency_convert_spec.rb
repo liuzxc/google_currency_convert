@@ -1,6 +1,6 @@
 require_relative '../lib/google_currency_convert.rb'
 
-RSpec.describe Currency do
+RSpec.describe GoogleCurrencyConvert do
 	it "currency info is a non-empty array" do
 		expect(GoogleCurrencyConvert.currency_info.size).to be > 0
 	end
@@ -22,7 +22,8 @@ RSpec.describe Currency do
 	end
 
 	it "get a float if the code and maount are right" do
-		expect(GoogleCurrencyConvert.currency_convert("AFN", "AED", 1)).to be > 0.0
+		expect(GoogleCurrencyConvert.currency_convert("AFN", "AED")).to be > 0.0
+		expect(GoogleCurrencyConvert.currency_convert("AFN", "AED", 100)).to be > 0.0
 	end
 
 end
