@@ -15,7 +15,13 @@ GoogleCurrencyConvert.currency_info
 => ["AED United Arab Emirates Dirham (AED)", "AFN Afghan Afghani (AFN)", "ALL Albanian Lek (ALL)", "AMD Armenian Dram (AMD)", "ANG Netherlands Antillean Guilder (ANG)", "AOA Angolan Kwanza (AOA)", "ARS Argentine Peso (ARS)", "AUD Australian Dollar (A$)", "AWG Aruban Florin (AWG)", "AZN Azerbaijani Manat (AZN)", "BAM Bosnia-Herzegovina Convertible Mark (BAM)", "BBD Barbadian Dollar (BBD)", "BDT Bangladeshi Taka (BDT)",....]
 
 ```
+You can get the currency code by country name. For example:
 
+```
+GoogleCurrencyConvert.currency_info.select { |i| i.include?("Jap")}
+
+=> ["JPY Japanese Yen (¥)"]
+```
 ###only get currency codes
 
 ```
