@@ -1,5 +1,5 @@
 # google currency convert
-currency convert by google finance API
+currency convert by google finance [API](https://www.google.com/finance/converter)
 
 ###Install
 
