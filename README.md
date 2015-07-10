@@ -32,7 +32,7 @@ GoogleCurrencyConvert.currency_codes
 
 ###currency convert
 
-The amount parmater has the default value, so if don't pass the amount, you will get the
+The amount parameter has the default value, so if don't pass the amount, you will get the
 currency rate.
 
 ```
