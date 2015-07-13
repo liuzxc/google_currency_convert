@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'google_currency_convert'
   s.version     = '0.0.3'
-  s.date        = '2015-07-09'
+  s.date        = '2015-07-13'
   s.summary     = "Google currency convert"
   s.description = "Google currency convert by google finance API (https://github.com/liuzxc/google_currency_convert)"
   s.authors     = ["liuxingqi"]

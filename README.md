@@ -1,13 +1,13 @@
-# google currency convert
+# Google currency convert
 currency convert by google finance [API](https://www.google.com/finance/converter)
 
-###Install
+### Install
 
 ```
 gem install google_currency_convert
 ```
 
-###get currency code and country info
+### Get currency code and country info
 
 ```
 GoogleCurrencyConvert.currency_info
@@ -22,7 +22,7 @@ GoogleCurrencyConvert.currency_info.select { |i| i.include?("Jap")}
 
 => ["JPY Japanese Yen (¥)"]
 ```
-###only get currency codes
+### Only get currency codes
 
 ```
 GoogleCurrencyConvert.currency_codes
@@ -30,7 +30,7 @@ GoogleCurrencyConvert.currency_codes
 => ["AED", "AFN", "ALL", "AMD", "ANG", "AOA", "ARS", "AUD", "AWG", "AZN", "BAM", "BBD", "BDT", "BGN", "BHD", "BIF", "BMD", "BND", "BOB", "BRL", "BSD", "BTC", "BTN", "BWP", "BYR", "BZD", "CAD", "CDF", "CHF", "CLF", "CLP", "CNH", "CNY", "COP", "CRC", "CUP", "CVE", "CZK", "DEM", "DJF", "DKK", "DOP", "DZD", "EGP", "ERN", "ETB", "EUR", "FIM", "FJD", "FKP", "FRF", "GBP", "GEL", "GHS", "GIP", "GMD", "GNF", "GTQ", "GYD", "HKD", "HNL", "HRK", "HTG", "HUF", "IDR", "IEP", "ILS", "INR", "IQD", "IRR", "ISK", "ITL", "JMD", "JOD", "JPY", "KES", "KGS", "KHR", "KMF", "KPW", "KRW", "KWD", "KYD", "KZT", "LAK", "LBP", "LKR", "LRD", "LSL", "LTL", "LVL", "LYD", "MAD", "MDL", "MGA", "MKD", "MMK", "MNT", "MOP", "MRO", "MUR", "MVR", "MWK", "MXN", "MYR", "MZN", "NAD", "NGN", "NIO", "NOK", "NPR", "NZD", "OMR", "PAB", "PEN", "PGK", "PHP", "PKG", "PKR", "PLN", "PYG", "QAR", "RON", "RSD", "RUB", "RWF", "SAR", "SBD", "SCR", "SDG", "SEK", "SGD", "SHP", "SLL", "SOS", "SRD", "STD", "SVC", "SYP", "SZL", "THB", "TJS", "TMT", "TND", "TOP", "TRY", "TTD", "TWD", "TZS", "UAH", "UGX", "USD", "UYU", "UZS", "VEF", "VND", "VUV", "WST", "XAF", "XCD", "XDR", "XOF", "XPF", "YER", "ZAR", "ZMK", "ZMW", "ZWL"]
 ```
 
-###currency convert
+### Currency convert
 
 The amount parameter has the default value, so if don't pass the amount, you will get the
 currency rate.
