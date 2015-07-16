@@ -45,3 +45,19 @@ Convert US Dollar to Chinese Yuan, for example:
 GoogleCurrencyConvert.currency_convert("USD", "CNY")
 => 6.2092
 ```
+
+### Run Test
+
+```
+Rspec test --format d
+
+GoogleCurrencyConvert
+  currency info is a non-empty array
+  currency codes a non-empty array
+  return error if the currency code is invalid
+  return error if the currency amount is not a positive integer
+  get a float if the code and maount are right
+
+Finished in 3.1 seconds (files took 0.32152 seconds to load)
+5 examples, 0 failures
+```

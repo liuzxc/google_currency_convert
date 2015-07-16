@@ -1,4 +1,5 @@
 require_relative '../lib/google_currency_convert.rb'
+require_relative '../lib/http_method.rb'
 
 RSpec.describe GoogleCurrencyConvert do
 	it "currency info is a non-empty array" do
